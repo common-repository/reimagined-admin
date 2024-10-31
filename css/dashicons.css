@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'dashicons';
+  src: url('../fonts/dashicons.eot');
+  src: url('../fonts/dashicons.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/dashicons.woff') format('woff'), 
+  url('../fonts/dashicons.ttf') format('truetype'), 
+  url('../fonts/dashicons.svg') format('svg');
+}
+
+[class^="dashicons-"]:before, [class*=" dashicons-"]:before {
+	font-family: 'dashicons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dashicons-dashboard:before {
+	content: "\f180";
+}
+.dashicons-admin-post:before {
+	content: "\f119";
+}
+.dashicons-admin-media:before {
+	content: "\f126";
+}
+.dashicons-admin-page:before {
+	content: "\f497";
+}
+.dashicons-admin-comments:before {
+	content: "\f130";
+}
+.dashicons-admin-appearance:before {
+	content: "\f233";
+}
+.dashicons-admin-plugins:before {
+	content: "\f178";
+}
+.dashicons-admin-users:before {
+	content: "\f336";
+}
+.dashicons-admin-tools:before {
+	content: "\f240";
+}
+.dashicons-admin-settings:before {
+	content: "\f238";
+}
+.dashicons-admin-generic:before {
+  content: "\f154";
+}
+
+#adminmenu .dashicons-before:before{
+  font-size: 16px;
+  height: 16px;
+}
+
+#adminmenu div.wp-menu-image:before{
+  padding: 9px 0;
+}
+
+@media screen and (min-width: 783px) {
+  .folded #adminmenu div.wp-menu-image:before{
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 783px) and (max-width: 900px) {
+  .auto-fold #adminmenu div.wp-menu-image:before{
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+}
